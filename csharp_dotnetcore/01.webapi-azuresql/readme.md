@@ -17,3 +17,6 @@ _Notes:_
 
 ## 2. Get connectionstring from Azure Portal
 Azure portal - Database - Connection strings - Copy ADO.NET (SQL authentication)
+
+_Notes:_
+- _Use connectionstring in [SqlHelper.cs](https://github.com/nidhisht/AzureSamples/blob/master/csharp_dotnetcore/01.webapi-azuresql/Helper/SqlHelper.cs) class_
