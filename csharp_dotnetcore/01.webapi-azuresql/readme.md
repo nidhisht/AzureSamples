@@ -1,5 +1,5 @@
 # Web API with Azure Sql connectivity
-Prerequisite is to create azure sql database on Azure portal. Ensure that sample adventureworks database is created database.
+Prerequisite is to create azure sql database on Azure portal.
 
 ## 1. Create Azure Sql database on Azure Portal
 Create new SQL database on portal (Azure Portal – New – Database – SQL Database)
@@ -16,3 +16,4 @@ _Notes:_
 
 
 ## 2. Get connectionstring from Azure Portal
+Azure portal - Database - Connection strings - Copy ADO.NET (SQL authentication)
