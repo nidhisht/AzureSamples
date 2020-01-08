@@ -23,14 +23,18 @@ _Notes:_
 
 ## 3. Test the web Api (locally)
 http://localhost:51192/api/values
+
 http://localhost:51192/api/values/5
+
 http://localhost:51192/api/Customers
+
 http://localhost:51192/api/Customers/5
 
 _Notes:_
 - _Above port can differ_
 
-## 3. Test the web Api (after publishing to Azure Portal)
+## 4. Test the web Api (after publishing to Azure Portal)
 https://adventureworks162api.azurewebsites.net/api/customers
+
 https://adventureworks162api.azurewebsites.net/api/customers/5
 
