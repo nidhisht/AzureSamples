@@ -1,5 +1,5 @@
 # Azure Web App consuming web api
-This sample uses *HttpClient* for invoking the Web Api and *Newtonsoft.Json* for deserializing Web Api response.
+This sample uses **HttpClient** for invoking the Web Api and *Newtonsoft.Json* for deserializing Web Api response.
 
 
 # Pre-requisites – Setup the web project:
