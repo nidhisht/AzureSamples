@@ -30,6 +30,6 @@ This sample uses **HttpClient** for invoking the Web Api and **Newtonsoft.Json**
 
 2. Use HttpClient (System.Net.Http.HttpClient) for invoking the web Api
 
-3. Use Newtonsoft.Json for deserializing the Web Api response
+3. Use [Newtonsoft.Json for deserializing the Web Api response](https://github.com/nidhisht/AzureSamples/blob/8026a6b260d6b793413cbcbbc1c63583a0580a5c/csharp_dotnetcore/02.webapp-consume-webapi/Controllers/CustomerController.cs#L30)
 
 	_Note: Class name can be different while deserializing the object. Ensure that the properties are same as of Web Api Entity._
