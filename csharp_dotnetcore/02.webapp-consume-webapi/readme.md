@@ -18,7 +18,7 @@ This sample uses **HttpClient** for invoking the Web Api and **Newtonsoft.Json**
 
 	Use a Layout page = ~/Views/Shared/\_Layout.cshtml
 
-4. \_Layout.html – add li element for customer
+4. \_Layout.html – [add li element for customer[(https://github.com/nidhisht/AzureSamples/blob/8026a6b260d6b793413cbcbbc1c63583a0580a5c/csharp_dotnetcore/02.webapp-consume-webapi/Views/Shared/_Layout.cshtml#L38)
 
 	_Note: **asp-controller** =&quot;Customer&quot; **asp-action** =&quot;Index&quot;_
 
