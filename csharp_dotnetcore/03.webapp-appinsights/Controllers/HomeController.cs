@@ -25,5 +25,24 @@ namespace _03.webapp_appinsights.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [HttpPost]
+        public IActionResult GenerateException()
+        {
+            DoSomething();
+            throw new Exception("This is user generated Exception from HomeController");
+        }
+
+        private void DoSomething()
+        {
+            try
+            {
+                throw new Exception("This is exception from private methid. This will be caught.");
+            }
+            catch (Exception ex)
+            {
+                //Do nothing
+            }
+        }
     }
 }
