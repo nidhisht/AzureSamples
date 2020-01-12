@@ -1,6 +1,6 @@
 # Enable Azure Application Insights Telemetry in .NET Core Web App
 
-This sample configures web request logging using Application Insights in .NET core Web App.
+This sample configures **web request logging of .NET core Web App** in Azure Application Insights.
 
 ## Steps (Azure Portal)
 Create new Azure resources (Application Insights)
