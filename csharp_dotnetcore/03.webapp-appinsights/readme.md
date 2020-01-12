@@ -22,3 +22,5 @@ Add **Application Insights Telemetry** in the [Starup.cs](https://github.com/nid
 2. There is few minutes delay in seeing logs in Azure Application Insights. 
 
 3. There's a query language available in Application Insights - **Kusto query language (KQL)**.
+
+4. Data retention can be upto 730 days (2 years). Upto 90 days is free, post that is chargable.
