@@ -17,7 +17,7 @@ Add **Instrumentation Key** in [ApplicationSettings.Json](https://github.com/nid
 Add **Application Insights Telemetry** in the [Starup.cs](https://github.com/nidhisht/AzureSamples/blob/4865ebf90752f4bde568819bd5ac6d26a3a3125a/csharp_dotnetcore/03.webapp-appinsights/Startup.cs#L33)
 
 ## Observations
-1. Local web app with **Instrumentation Key** can send messages to Azure Application Insights.
+1. Local web app (not published) with **Instrumentation Key** can send messages to Azure Application Insights.
 
 2. There is few minutes delay in seeing logs in Azure Application Insights. 
 
