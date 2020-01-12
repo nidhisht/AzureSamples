@@ -2,6 +2,8 @@
 
 This sample configures **web request logging of .NET core Web App** in Azure Application Insights.
 
+_Note: InstrumentationKey uniqely identifies Application Insights in Azure Portal_
+
 ## Steps (Azure Portal)
 Create new Azure resources (Application Insights)
 
