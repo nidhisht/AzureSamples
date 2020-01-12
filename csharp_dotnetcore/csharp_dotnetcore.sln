@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.webapi-azuresql", "01.we
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.webapp-consume-webapi", "02.webapp-consume-webapi\02.webapp-consume-webapi.csproj", "{B7B563C1-9F34-4209-ACF4-231E7E0FFED1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.webapp-appinsights", "03.webapp-appinsights\03.webapp-appinsights.csproj", "{6D0AFC20-C803-4529-8710-EF9D06CB872E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B7B563C1-9F34-4209-ACF4-231E7E0FFED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B563C1-9F34-4209-ACF4-231E7E0FFED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B563C1-9F34-4209-ACF4-231E7E0FFED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0AFC20-C803-4529-8710-EF9D06CB872E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0AFC20-C803-4529-8710-EF9D06CB872E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0AFC20-C803-4529-8710-EF9D06CB872E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0AFC20-C803-4529-8710-EF9D06CB872E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
