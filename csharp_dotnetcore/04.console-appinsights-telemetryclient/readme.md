@@ -1,4 +1,4 @@
-# Enable Application Insights in .NET Core console app using Telemetry Client
+# Enable Application Insights logging in .NET Core console application
 Use TelemetryClient to log **Trace** or **Event** into Application Insights
 
 ## Nuget packages used
