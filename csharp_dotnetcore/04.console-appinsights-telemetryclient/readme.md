@@ -3,6 +3,7 @@ Use TelemetryClient to log **Trace** or **Event** into Application Insights
 
 ## Nuget packages used
 Microsoft.ApplicationInsights
+
 Microsoft.ApplicationInsights.DependencyCollector
 
 ## Reference
