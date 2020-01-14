@@ -1,7 +1,7 @@
-# AzureSamples
+# Azure Samples
 Welcome to the Azure samples repository. Here you will find samples created in dotnetcore which can be deployed on Azure PaaS
 
-| Project | Description |
+| Topics | Description |
 | --- | --- |
 | [01.webapi-azuresql](https://github.com/nidhisht/AzureSamples/tree/master/csharp_dotnetcore/01.webapi-azuresql) | Web Api Connecting to Azure Sql |
 | [02.webapp-consume-webapi](https://github.com/nidhisht/AzureSamples/tree/master/csharp_dotnetcore/02.webapp-consume-webapi) | Azure Web App consuming web api |
