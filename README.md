@@ -3,7 +3,7 @@ Welcome to the Azure samples repository. Here you will find samples created in d
 
 | Project | Description |
 | --- | --- |
-| 01.webapi-azuresql | Web Api Connecting to Azure Sql |
+| [01.webapi-azuresql](https://github.com/nidhisht/AzureSamples/tree/master/csharp_dotnetcore/01.webapi-azuresql) | Web Api Connecting to Azure Sql |
 | 02.webapp-consume-webapi | Azure Web App consuming web api |
 | 03.webapp-appinsights | Enable Azure Application Insights in Web App |
 | 04.console-appinsights-TelemetryClient | Enable Azure Application Insights in console app using Telemetry Client |
