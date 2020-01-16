@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.webapp-appinsights", "03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.console-appinsights-telemetryclient", "04.console-appinsights-telemetryclient\04.console-appinsights-telemetryclient.csproj", "{E76ADD7F-E495-450E-AD5D-202E1019C1C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.read-appsettings-webapi", "05.read-appsettings-webapi\05.read-appsettings-webapi.csproj", "{79B0F71D-C51B-49B1-8FF4-07FAE7E06F24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E76ADD7F-E495-450E-AD5D-202E1019C1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E76ADD7F-E495-450E-AD5D-202E1019C1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E76ADD7F-E495-450E-AD5D-202E1019C1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B0F71D-C51B-49B1-8FF4-07FAE7E06F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B0F71D-C51B-49B1-8FF4-07FAE7E06F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B0F71D-C51B-49B1-8FF4-07FAE7E06F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B0F71D-C51B-49B1-8FF4-07FAE7E06F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
