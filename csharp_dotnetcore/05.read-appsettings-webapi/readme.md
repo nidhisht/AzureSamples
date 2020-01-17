@@ -14,7 +14,7 @@ It’s advisable to create different AppSettings.json files for different enviro
 
 1. Key/Value application configuration properties
 
-    var owner = Configuration["ApplicationSettings:Owner"];
+    [var owner = Configuration["ApplicationSettings:Owner"];](https://github.com/nidhisht/AzureSamples/blob/b601563f1c9db0c8e1697b6012451b13298f57d5/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L17)
 
     var title = Configuration["Title"];
 
