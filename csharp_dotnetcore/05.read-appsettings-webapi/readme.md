@@ -16,7 +16,7 @@ It’s advisable to create different AppSettings.json files for different enviro
 
     [var owner = Configuration["ApplicationSettings:Owner"];](https://github.com/nidhisht/AzureSamples/blob/b601563f1c9db0c8e1697b6012451b13298f57d5/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L17)
 
-    [var title = Configuration["Title"];](https://github.com/nidhisht/AzureSamples/blob/5780b9ea7903817e1fabb26e2c079db80c115478/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L17)
+    [var title = Configuration["Title"];](https://github.com/nidhisht/AzureSamples/blob/5780b9ea7903817e1fabb26e2c079db80c115478/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L18)
 
 
 2.	Register a configuration Instance in Startup.cs – ConfigureServices().
