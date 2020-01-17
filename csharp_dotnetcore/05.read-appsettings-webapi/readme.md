@@ -23,7 +23,7 @@ It’s advisable to create different AppSettings.json files for different enviro
 
     [services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));](https://github.com/nidhisht/AzureSamples/blob/5780b9ea7903817e1fabb26e2c079db80c115478/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L27)
 
-    [Controller](https://github.com/nidhisht/AzureSamples/blob/5842f10d6ed482fb6dfc4cec5b544cb1bf43468b/csharp_dotnetcore/05.read-appsettings-webapi/Controllers/ValuesController.cs#L14) changes - using [Options pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1)
+    **Notes**: [Controller](https://github.com/nidhisht/AzureSamples/blob/5842f10d6ed482fb6dfc4cec5b544cb1bf43468b/csharp_dotnetcore/05.read-appsettings-webapi/Controllers/ValuesController.cs#L14) changes is needed - using [Options pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1)
 
 ## Testing AppSettings.Environment locally
 
