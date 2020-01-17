@@ -1,7 +1,7 @@
 # Reading Appsettings.json in Web Api
 It’s advisable to create different AppSettings.json files for different environment. These configurations will be picked up by the runtime automatically.
 
-**Note**: If same configuration is present in **AppSettings.json** & **AppSettings.Production.json**, then preference will be given to the **AppSettings.Production.json**
+**Note**: If same configuration is present in [**AppSettings.json**](https://github.com/nidhisht/AzureSamples/blob/c0a0e8d8098a728d39ba1f85be324b17d9099833/csharp_dotnetcore/05.read-appsettings-webapi/appsettings.json#L8) & [**AppSettings.Production.json**](https://github.com/nidhisht/AzureSamples/blob/d22bb5090a362aacec08c3af3f98fa15046c9f5b/csharp_dotnetcore/05.read-appsettings-webapi/appsettings.Production.json#L14), then preference will be given to the [**AppSettings.Production.json**](https://github.com/nidhisht/AzureSamples/blob/d22bb5090a362aacec08c3af3f98fa15046c9f5b/csharp_dotnetcore/05.read-appsettings-webapi/appsettings.Production.json#L14)
 
 ## Different ways of reading AppSettings
 
