@@ -19,9 +19,9 @@ It’s advisable to create different AppSettings.json files for different enviro
     [var title = Configuration["Title"];](https://github.com/nidhisht/AzureSamples/blob/5780b9ea7903817e1fabb26e2c079db80c115478/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L18)
 
 
-2.	Register a configuration Instance in Startup.cs.
+2.	Register a configuration Instance in [Startup.cs](https://github.com/nidhisht/AzureSamples/blob/5780b9ea7903817e1fabb26e2c079db80c115478/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L27).
 
-    [services.Configure](https://github.com/nidhisht/AzureSamples/blob/5780b9ea7903817e1fabb26e2c079db80c115478/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L27)<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));
+    services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));
 
 
     **Note**: Change in [Controller](https://github.com/nidhisht/AzureSamples/blob/5842f10d6ed482fb6dfc4cec5b544cb1bf43468b/csharp_dotnetcore/05.read-appsettings-webapi/Controllers/ValuesController.cs#L14) is needed - using [Options pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1)
