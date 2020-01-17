@@ -20,3 +20,5 @@ It’s advisable to create different AppSettings.json files for different enviro
 ## Testing AppSettings.Environment locally
 
 VS 2017 – Debug menu – Project Properties – Environment Variable – ASPNETCORE_ENVIRONMENT = Production
+
+Other option is to make change in [**LaunchSettings.json**](https://github.com/nidhisht/AzureSamples/blob/d22bb5090a362aacec08c3af3f98fa15046c9f5b/csharp_dotnetcore/05.read-appsettings-webapi/Properties/launchSettings.json#L17)
