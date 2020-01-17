@@ -21,7 +21,7 @@ It’s advisable to create different AppSettings.json files for different enviro
 
 2.	Register a configuration Instance in Startup.cs – ConfigureServices().
 
-    [services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));](https://github.com/nidhisht/AzureSamples/blob/5780b9ea7903817e1fabb26e2c079db80c115478/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L26)
+    [services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));](https://github.com/nidhisht/AzureSamples/blob/5780b9ea7903817e1fabb26e2c079db80c115478/csharp_dotnetcore/05.read-appsettings-webapi/Startup.cs#L27)
 
 
 ## Testing AppSettings.Environment locally
