@@ -24,3 +24,6 @@ Add **Application Insights Telemetry** in the [Starup.cs](https://github.com/nid
 3. There's a query language available in Application Insights - **Kusto query language (KQL)**.
 
 4. Data retention can be upto 730 days (2 years). Upto 90 days is free, post that is chargable.
+
+## Reference
+[youtube](https://www.youtube.com/watch?v=f9PNECCb2EI)
