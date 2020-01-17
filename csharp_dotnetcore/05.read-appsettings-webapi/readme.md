@@ -1,7 +1,7 @@
 # Reading Appsettings.json in Web Api
 It’s advisable to create different AppSettings.json files for different environment. These configurations will be picked up by the runtime automatically.
 
-| Topics | Description |
+| Settings | Description |
 | --- | --- |
 | AppSettings.json | Generic or common configuration |
 | AppSettings.Development.json | Configuration related to Development environment |
