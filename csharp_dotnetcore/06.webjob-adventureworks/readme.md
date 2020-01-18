@@ -8,4 +8,7 @@
 
 3. Any **dotnet Framework console application** can be configured as web job
 
-4. By default, dotnetcore console project output is **dll**. 
+4. By default, dotnetcore console project output is **dll**. Hence may not be able to configure directly.
+
+## Reference
+[Youtube](https://www.youtube.com/watch?v=-A6hsUPSkWU)
