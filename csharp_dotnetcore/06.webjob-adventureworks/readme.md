@@ -26,7 +26,7 @@ There are 2 types of Web Jobs
 
 4. By default, dotnetcore console project output is **dll**. Hence may not be able to configure directly.
 
-5. Scheduled web job can be configured using [CRON expressions](https://docs.microsoft.com/en-in/azure/app-service/webjobs-create#ncrontab-expressions)
+5. A web job can be **Scheduled** using [CRON expressions](https://docs.microsoft.com/en-in/azure/app-service/webjobs-create#ncrontab-expressions)
    
    
 ## Scenario
