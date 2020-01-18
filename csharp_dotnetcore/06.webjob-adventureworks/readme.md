@@ -6,13 +6,12 @@ Web job is a process that runs in the background
 
 It complements the main application. In other words, Web job is a supporting mechanism to an existing application.
 
-There are 2 types of Web Jobs
-  1. **Continous Web Job**
-  2. **Triggered Web Job**
+| Web Job Types | Description |
+| --- | --- |
+| Continous Web Job | Continous Web Job will run until stopped |
+| Triggered Web Job | Triggered Web Job will run only when triggered |
 
-**Continous Web Job** will run until stopped
-
-**Triggered Web Job** will run only when triggered. It can be started in 2 ways:
+**Triggered Web Job** can be started in 2 ways:
   1. Manual
   2. Scheduled
 
