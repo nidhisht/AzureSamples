@@ -10,9 +10,9 @@ There are 2 types of Web Jobs
   1. **Continous Web Job**
   2. **Triggered Web Job**
 
-**Continous Web Job** runs until its stopped
+**Continous Web Job** will run until stopped
 
-**Triggered Web Job** runs when it is triggered. It can be started in 2 ways:
+**Triggered Web Job** will run only when triggered. It can be started in 2 ways:
   1. Manual
   2. Scheduled
 
