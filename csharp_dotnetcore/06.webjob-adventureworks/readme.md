@@ -10,7 +10,7 @@ There are 2 types of Web Jobs
   1. **Continous Web Job**
   2. **Triggered Web Job**
 
-**Triggered Web job** can be triggered in 2 ways.
+**Triggered Web job** can be started in 2 ways.
   1. Manual
   2. Scheduled
 
