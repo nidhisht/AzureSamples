@@ -1,0 +1,2 @@
+# Run a background task with Web Job
+**NOTE: THIS IS A DOTNET FRAMEWORK CONSOLE APPLICATION (NOT DOTNETCORE)**
