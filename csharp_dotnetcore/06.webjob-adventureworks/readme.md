@@ -29,7 +29,7 @@ There are 2 types of Web Jobs
 5. Scheduling web job can be done using [CRON expressions](https://docs.microsoft.com/en-in/azure/app-service/webjobs-create#ncrontab-expressions)
    
    
-## Scheduling Web Job Scenario
+## Scenario
 Schedule a web job to auto-install applications on Microsoft Teams for all newly onboarded users in the organization. This job will run on all Fridays at 5PM. Use Microsoft Graph APIs for auto-installations.
 
 ## Reference
