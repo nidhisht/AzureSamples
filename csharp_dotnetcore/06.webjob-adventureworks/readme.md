@@ -6,6 +6,7 @@ Web job is a process that runs in the background
 
 It complements the main application. In other words, Web job is a supporting mechanism to an existing application.
 
+## Web Job Types
 | Web Job Types | Description |
 | --- | --- |
 | Continous Web Job | Continous Web Job will run until stopped |
