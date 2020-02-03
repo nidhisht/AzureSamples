@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.read-appsettings-webapi"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.webjobs", "06.webjobs\06.webjobs.csproj", "{F99A3C1B-1BCD-4335-871F-6D285C53B400}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.webapi-swagger", "07.webapi-swagger\07.webapi-swagger.csproj", "{2D3C7D08-CFE7-42AF-B548-B560091E4C47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F99A3C1B-1BCD-4335-871F-6D285C53B400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F99A3C1B-1BCD-4335-871F-6D285C53B400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F99A3C1B-1BCD-4335-871F-6D285C53B400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3C7D08-CFE7-42AF-B548-B560091E4C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3C7D08-CFE7-42AF-B548-B560091E4C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3C7D08-CFE7-42AF-B548-B560091E4C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3C7D08-CFE7-42AF-B548-B560091E4C47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

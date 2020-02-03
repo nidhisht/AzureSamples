@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>07.webapi-swagger</name>
+    </assembly>
+    <members>
+        <member name="M:_07.webapi_swagger.Controllers.ValuesController.Get">
+            <summary>
+            This method lists all the values
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:_07.webapi_swagger.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            This method returns single value against an id
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:_07.webapi_swagger.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            This method add new value
+            </summary>
+            <param name="value">Mandatory</param>
+        </member>
+        <member name="M:_07.webapi_swagger.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            This method updates existing value
+            </summary>
+            <param name="id">Mandatory</param>
+            <param name="value"></param>
+        </member>
+        <member name="M:_07.webapi_swagger.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            This method deletes a value
+            </summary>
+            <param name="id">Mandatory</param>
+        </member>
+    </members>
+</doc>
