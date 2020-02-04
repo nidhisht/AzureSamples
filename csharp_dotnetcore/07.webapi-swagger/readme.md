@@ -19,8 +19,8 @@ Swagger is a framework for documenting REST api.
 
 
 ## Inject human friendly description for api methods
-6. To update the documentation, goto the web api controller & add comments against the methods
+6. To update the documentation, goto the web api controller & [add comments](https://github.com/nidhisht/AzureSamples/blob/9a32b4021ed9ff2a1eead5eaf89648231833530d/csharp_dotnetcore/07.webapi-swagger/Controllers/ValuesController.cs#L11) against the methods
 
 7. Web api project properties -> Build -> Output -> check "XML documentation File"
 
-8. Include XML comments inside swagger generator of Startup - ConfigureServices()
+8. [Include XML comments](https://github.com/nidhisht/AzureSamples/blob/9a32b4021ed9ff2a1eead5eaf89648231833530d/csharp_dotnetcore/07.webapi-swagger/Startup.cs#L43) inside swagger generator of Startup - ConfigureServices()
