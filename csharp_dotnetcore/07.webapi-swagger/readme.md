@@ -24,3 +24,6 @@ Swagger is a framework for documenting REST api.
 7. Web api project properties -> Build -> Output -> check "XML documentation File"
 
 8. [Include XML comments](https://github.com/nidhisht/AzureSamples/blob/9a32b4021ed9ff2a1eead5eaf89648231833530d/csharp_dotnetcore/07.webapi-swagger/Startup.cs#L43) inside swagger generator of Startup - ConfigureServices()
+
+## Reference
+[Youtube](https://www.youtube.com/watch?v=qlEZE1K5BI4)
