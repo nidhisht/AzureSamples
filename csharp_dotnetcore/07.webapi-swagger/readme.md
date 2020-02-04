@@ -6,10 +6,12 @@ Swagger is a framework for documenting REST api.
 1. Add Nuget package Swashbuckle.AspNetCore
 
 2. Add swagger generator to the Startup - ConfigureServices()
-	Note: Documentation title, description, contact details
+
+Note: Documentation title, description, contact details
 
 3. Enable swagger middleware in the startup - Configure()
-	Note: Swagger endpont URL, description
+
+Note: Swagger endpont URL, description
 
 4. Provide endpoint of Swagger UI in the startup - Configure()
 
