@@ -3,7 +3,7 @@ Swagger is a framework for documenting REST api.
 
 
 ## Initial Configurations (Swagger Generator & Swagger UI Endpoints)
-1. Add Nuget package Swashbuckle.AspNetCore
+1. Add Nuget package **Swashbuckle.AspNetCore**
 
 2. Add [Swagger Generator](https://github.com/nidhisht/AzureSamples/blob/9a32b4021ed9ff2a1eead5eaf89648231833530d/csharp_dotnetcore/07.webapi-swagger/Startup.cs#L29) to the Startup - ConfigureServices()
 
