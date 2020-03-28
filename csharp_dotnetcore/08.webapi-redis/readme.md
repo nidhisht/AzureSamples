@@ -16,7 +16,7 @@ Note: Redis Pricing Tier **C0 Basic** offeres upto 250MB cache and is sufficient
 
 4. In Startup.cs, Create a new [ConnectionMultiplexer instance](https://github.com/nidhisht/AzureSamples/blob/67ca70e2188cf7d929f415a406ad863cf6ed1bcb/csharp_dotnetcore/08.webapi-redis/Startup.cs#L24)
 
-5. In Startup.cs, Add a [scoped service of type IDatabase](https://github.com/nidhisht/AzureSamples/blob/67ca70e2188cf7d929f415a406ad863cf6ed1bcb/csharp_dotnetcore/08.webapi-redis/Startup.cs#L25)
+5. In Startup.cs, Add a [scoped service](https://github.com/nidhisht/AzureSamples/blob/67ca70e2188cf7d929f415a406ad863cf6ed1bcb/csharp_dotnetcore/08.webapi-redis/Startup.cs#L25) of type IDatabase
 
 6. [Inject IDatabase](https://github.com/nidhisht/AzureSamples/blob/67ca70e2188cf7d929f415a406ad863cf6ed1bcb/csharp_dotnetcore/08.webapi-redis/Controllers/CacheController.cs#L12) in the controller
 
