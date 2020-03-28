@@ -23,3 +23,6 @@ Note: Redis Pricing Tier **C0 Basic** offeres upto 250MB cache and is sufficient
 7. [Set a key](https://github.com/nidhisht/AzureSamples/blob/67ca70e2188cf7d929f415a406ad863cf6ed1bcb/csharp_dotnetcore/08.webapi-redis/Controllers/CacheController.cs#L30) to hold string value in Redis Cache
 
 8. [Get the value](https://github.com/nidhisht/AzureSamples/blob/67ca70e2188cf7d929f415a406ad863cf6ed1bcb/csharp_dotnetcore/08.webapi-redis/Controllers/CacheController.cs#L21) of the key from Redis Cache
+
+## Reference
+[youtube]()
