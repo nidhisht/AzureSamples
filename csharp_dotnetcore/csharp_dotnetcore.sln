@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.webjobs", "06.webjobs\06
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.webapi-swagger", "07.webapi-swagger\07.webapi-swagger.csproj", "{2D3C7D08-CFE7-42AF-B548-B560091E4C47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.webapi-redis", "08.webapi-redis\08.webapi-redis.csproj", "{5923D9C1-E7D7-4C6F-B1FE-C3E0232C741D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.webapi-redis", "08.webapi-redis\08.webapi-redis.csproj", "{5923D9C1-E7D7-4C6F-B1FE-C3E0232C741D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.webapi-cosmos-sqlapi", "09.webapi-cosmos-sqlapi\09.webapi-cosmos-sqlapi.csproj", "{7612B3AB-1842-48A8-A08B-6EC35572FB55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5923D9C1-E7D7-4C6F-B1FE-C3E0232C741D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5923D9C1-E7D7-4C6F-B1FE-C3E0232C741D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5923D9C1-E7D7-4C6F-B1FE-C3E0232C741D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7612B3AB-1842-48A8-A08B-6EC35572FB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7612B3AB-1842-48A8-A08B-6EC35572FB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7612B3AB-1842-48A8-A08B-6EC35572FB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7612B3AB-1842-48A8-A08B-6EC35572FB55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
