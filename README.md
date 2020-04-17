@@ -11,3 +11,4 @@ Welcome to the Azure samples repository. Here you will find samples created in d
 | [06.webjobs](https://github.com/nidhisht/AzureSamples/tree/master/csharp_dotnetcore/06.webjobs) | Run a background task with Web Job |
 | [07.webapi-swagger](https://github.com/nidhisht/AzureSamples/tree/master/csharp_dotnetcore/07.webapi-swagger) | Documenting REST api with swagger |
 | [08.webapi-redis](https://github.com/nidhisht/AzureSamples/tree/master/csharp_dotnetcore/08.webapi-redis) | Caching Web API data using Azure Cache for Redis |
+| [09.webapi-cosmos-sqlapi](https://github.com/nidhisht/AzureSamples/tree/master/csharp_dotnetcore/09.webapi-cosmos-sqlapi) | Web Api Connecting to Azure CosmosDB |
