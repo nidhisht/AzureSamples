@@ -4,6 +4,11 @@ Cosmos DB is a **multi-model**, **globally distributed** database.
 
 This sample covers **Core SQL API** in Cosmos DB.
 
+## Pre-requisite
+1. Create azure resource - [Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/create-sql-api-dotnet)
+
+
+## Basics
 Cosmos DB enables horizontal scaling.
 
 Cosmos DB stores documents in collections. Within collections, documents are split into groups called Logical Partitions. It is through Partition keys. Cosmos DB reshuffles logical partitions into physical servers using physical partitions.
