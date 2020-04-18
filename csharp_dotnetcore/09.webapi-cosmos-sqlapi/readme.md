@@ -21,6 +21,14 @@ This sample covers **Core SQL API** in Cosmos DB.
 5. Instantiate [Container](https://github.com/nidhisht/AzureSamples/blob/45438ad735b463bd0dc22576042702c445a97ac5/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L18) in the CosmosDbHelper
 
 
+
+| Container Actions | Description |
+| --- | --- |
+|[CreateItemAsync](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L24) | Add new item to collection |
+| [UpsertItemAsync](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L29) | Update an existing item in collection |
+| [DeleteItemAsync](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L34) | Delete an item from collection |
+| [GetItemQueryIterator](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L58) | Get an item from collection |
+
 ## Basics
 Cosmos DB enables horizontal scaling.
 
