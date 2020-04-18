@@ -2,6 +2,8 @@
 
 Cosmos DB is a **multi-model**, **globally distributed** database.
 
+When we say multi-model, it can be key-value, document & graph database.
+
 This sample covers **Core SQL API** in Cosmos DB.
 
 ## Pre-requisite
