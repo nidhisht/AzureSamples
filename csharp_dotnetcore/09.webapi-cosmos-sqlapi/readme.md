@@ -25,10 +25,10 @@ This sample covers **Core SQL API** in Cosmos DB.
 
 | Container Actions | Description |
 | --- | --- |
-|[CreateItemAsync](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L24) | Add new item to collection |
-| [UpsertItemAsync](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L29) | Update an existing item in collection |
-| [DeleteItemAsync](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L34) | Delete an item from collection |
-| [GetItemQueryIterator](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L58) | Get an item from collection |
+|[container.CreateItemAsync](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L24) | Add new item to collection |
+| [container.UpsertItemAsync](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L29) | Update an existing item in collection |
+| [container.DeleteItemAsync](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L34) | Delete an item from collection |
+| [container.GetItemQueryIterator](https://github.com/nidhisht/AzureSamples/blob/ea24986cf54f5d54dde9a4c9a754ed754080f4bd/csharp_dotnetcore/09.webapi-cosmos-sqlapi/DataAccess/CosmosDbHelper.cs#L58) | Get an item from collection |
 
 
 ## Basics
